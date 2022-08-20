@@ -100,7 +100,7 @@ LOUNGE_CHAT.CustomTagsGroups = {
   ["trialstaff"] = ":user_add: <color=aaffaa>Trial Staff</color> | ",
 }
 
-LOUNGE_CHAT.CustomRankGroups = {
+LOUNGE_CHAT.CustomRankTags = {
     ["cosmic"] = "<flash=ff005e,2>COSMIC ▸ </flash>",
 }
 
