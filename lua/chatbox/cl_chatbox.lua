@@ -1408,7 +1408,11 @@ function LOUNGE_CHAT:OnPlayerChat(ply, text, bteam, bdead, preftext, prefcolor, 
 					Add(ct)
 				end
 			end
-		end
+
+            local cr = self.CustomRankTags[ply:getTitle()]
+
+            if cr then Add(cr) end
+        end
 
 		-- TeamTags
 		if (self.TeamTags) then
