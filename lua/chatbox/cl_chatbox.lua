@@ -354,13 +354,13 @@ function LOUNGE_CHAT:CreateChatbox()
 			entry:SetUpdateOnType(true)
 			entry:Dock(FILL)
 			entry:DockMargin(0, 0, 4, 0)
-			entry.OldOnKeyCodeTyped = entry.OnKeyCodeTyped
 			entry.PaintOver = function(me, w, h)
 				if (vgui.GetKeyboardFocus() == frame) then
 					me.textentry:RequestFocus()
 				end
 			end
-			entry.OnKeyCodeTyped = function(me, kc)
+            entry.textentry.OldOnKeyCodeTyped = entry.textentry.OnKeyCodeTyped
+			entry.textentry.OnKeyCodeTyped = function(me, kc)
 				if (kc == KEY_ESCAPE) then
 					self:CloseChatbox()
 				elseif (kc == KEY_TAB) then
