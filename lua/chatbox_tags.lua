@@ -100,6 +100,10 @@ LOUNGE_CHAT.CustomTagsGroups = {
   ["trialstaff"] = ":user_add: <color=aaffaa>Trial Staff</color> | ",
 }
 
+LOUNGE_CHAT.CustomRankTags = {
+    ["cosmic"] = "<flash=ff005e,2>COSMIC ▸ </flash>",
+}
+
 -- Here is where you set up custom tags for specific players. Accepts SteamIDs and SteamID64s.
 -- This takes priority over the usergroup custom tag.
 -- You can use parsers here.
