@@ -4,12 +4,12 @@
 
 -- Enable Derma emoticons?
 -- You can see the full list here: http://www.famfamfam.com/lab/icons/silk/previews/index_abc.png
-LOUNGE_CHAT.EnableDermaEmoticons = false
+LOUNGE_CHAT.EnableDermaEmoticons = true
 
 -- Restrict Derma emoticons?
 -- You can configure the restrictions in the "DermaEmoticonsRestrictions" option.
 -- "false" means derma emoticons can be used by anyone.
-LOUNGE_CHAT.RestrictDermaEmoticons = false
+LOUNGE_CHAT.RestrictDermaEmoticons = true
 
 -- Here you can decide on restrictions for players to be able to use Derma emoticons in their messages.
 -- Only works if the "RestrictDermaEmoticons" option is set to true
