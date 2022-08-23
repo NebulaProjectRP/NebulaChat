@@ -169,7 +169,7 @@ LOUNGE_CHAT.CustomEmoticons = {
 		url = "https://imgur.com/CdBMdtX.png",
 		w = 13,
 		h = 16,
-	}
+	},
 	["clown1"] = {
 		url = "https://imgur.com/VZcLGXd.png",
 		w = 32,
