@@ -120,6 +120,11 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
+	["bruh"] = {
+		url = "https://imgur.com/KDoI8OG.png",
+		w = 32,
+		h = 32,
+	},
 	["bruh2"] = {
 		url = "https://imgur.com/vlenUru.png",
 		w = 32,
