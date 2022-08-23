@@ -80,7 +80,7 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-	["tyler"] = {
+	["mike"] = {
 		url = "https://imgur.com/8uSVHw5.png",
 		w = 32,
 		h = 32,
@@ -115,8 +115,39 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-	["nebula"] = {
-		url = "https://i.imgur.com/FBWAnU2.png",
+	["rock"] = {
+		url = "https://imgur.com/ufydLPu.png",
+		w = 32,
+		h = 32,
+	},
+	["bruh2"] = {
+		url = "https://imgur.com/vlenUru.png",
+		w = 32,
+		h = 32,
+	},
+	["bruh3"] = {
+		url = "https://imgur.com/RKn1HrC.png",
+		w = 32,
+		h = 32,
+	},
+	["pog"] = {
+		url = "https://imgur.com/TrMwMYP.png",
+		w = 32,
+		h = 32,
+	},
+	["gun"] = {
+		url = "https://imgur.com/DDYS79l.png",
+		w = 32,
+		h = 32,
+	},
+	["money"] = {
+		url = "https://imgur.com/QFdBEta.png",
+		w = 32,
+		h = 32,
+	},
+	
+	["siren"] = {
+		url = "https://imgur.com/3PZ02A6.png",
 		w = 13,
 		h = 16,
 	}
