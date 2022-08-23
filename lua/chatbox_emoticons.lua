@@ -150,9 +150,28 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-	
-	["siren"] = {
-		url = "https://imgur.com/3PZ02A6.png",
+	["why"] = {
+		url = "https://imgur.com/karK6yR.png",
+		w = 13,
+		h = 16,
+	},
+	["dying"] = {
+		url = "https://imgur.com/PXOGFl4.png",
+		w = 32,
+		h = 32,
+	},
+	["gun"] = {
+		url = "https://imgur.com/DDYS79l.png",
+		w = 32,
+		h = 32,
+	},
+	["joy"] = {
+		url = "https://imgur.com/vKSUuz1.png",
+		w = 32,
+		h = 32,
+	},
+	["joy2"] = {
+		url = "https://imgur.com/CdBMdtX.png",
 		w = 13,
 		h = 16,
 	}
