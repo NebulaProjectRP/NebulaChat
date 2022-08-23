@@ -10,7 +10,7 @@ LOUNGE_CHAT.TagDead = "<color=255,0,0>*DEAD*</color> "
 -- Tag to display for a player's team message in the CHAT
 -- The color preceding this will be the player's team color.
 -- You can use parsers here.
-LOUNGE_CHAT.TagTeam = "(TEAM) "
+LOUNGE_CHAT.TagTeam = "(Gang) "
 
 -- Tag to display for a dead player's message in the CONSOLE
 -- You can't put parsers in there. What you can do is use a table for different text/colors.
@@ -19,7 +19,7 @@ LOUNGE_CHAT.TagDeadConsole = {Color(255, 0, 0), "*DEAD* "}
 -- Tag to display for a player's team message in the CONSOLE
 -- The color preceding this will be the player's team color.
 -- You can't put parsers in there. What you can do is use a table for different text/colors.
-LOUNGE_CHAT.TagTeamConsole = {"(TEAM) "}
+LOUNGE_CHAT.TagTeamConsole = {"(Gang) "}
 
 /**
 * Name Color configuration

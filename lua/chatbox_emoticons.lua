@@ -4,7 +4,7 @@
 
 -- Enable Derma emoticons?
 -- You can see the full list here: http://www.famfamfam.com/lab/icons/silk/previews/index_abc.png
-LOUNGE_CHAT.EnableDermaEmoticons = true
+LOUNGE_CHAT.EnableDermaEmoticons = false
 
 -- Restrict Derma emoticons?
 -- You can configure the restrictions in the "DermaEmoticonsRestrictions" option.
@@ -39,7 +39,6 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-
 	// FA emoticons
 	["kami"] = {
 		url = "https://vgy.me/pzfz8k.png",
@@ -61,11 +60,66 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-  ["nebula"] = {
-    url = "https://i.imgur.com/FBWAnU2.png",
-    w = 13,
-    h = 16,
-  }
+	["shutup"] = {
+		url = "https://imgur.com/OtgXt1H.png",
+		w = 32,
+		h = 32,
+	},
+	["cute"] = {
+		url = "https://imgur.com/xmjovZb.png",
+		w = 32,
+		h = 32,
+	},
+	["mlady"] = {
+		url = "https://imgur.com/C9Oxdwq.png",
+		w = 32,
+		h = 32,
+	},
+	["tyler"] = {
+		url = "https://imgur.com/GMFbPTd.png",
+		w = 32,
+		h = 32,
+	},
+	["tyler"] = {
+		url = "https://imgur.com/8uSVHw5.png",
+		w = 32,
+		h = 32,
+	},
+	["f"] = {
+		url = "https://imgur.com/AqSq7OE.png",
+		w = 32,
+		h = 32,
+	},
+	["eri"] = {
+		url = "https://imgur.com/NmS9wyF.png",
+		w = 32,
+		h = 32,
+	},
+	["noice"] = {
+		url = "https://imgur.com/oJ6mO2t.png",
+		w = 32,
+		h = 32,
+	},
+	["wtf"] = {
+		url = "https://imgur.com/IREuoNe.png",
+		w = 32,
+		h = 32,
+	},
+	["hmm"] = {
+		url = "https://imgur.com/V6P3FSW.png",
+		w = 32,
+		h = 32,
+	},
+	["cross"] = {
+		url = "https://imgur.com/gfX8dV7.png",
+		w = 32,
+		h = 32,
+	},
+	["nebula"] = {
+		url = "https://i.imgur.com/FBWAnU2.png",
+		w = 13,
+		h = 16,
+	}
 }
 
 -- Here you can decide whether an emoticon can only be used by a specific usergroup/SteamID
