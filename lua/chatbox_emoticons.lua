@@ -160,11 +160,6 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 32,
 		h = 32,
 	},
-	["gun"] = {
-		url = "https://imgur.com/DDYS79l.png",
-		w = 32,
-		h = 32,
-	},
 	["joy"] = {
 		url = "https://imgur.com/vKSUuz1.png",
 		w = 32,
@@ -175,6 +170,26 @@ LOUNGE_CHAT.CustomEmoticons = {
 		w = 13,
 		h = 16,
 	}
+	["clown1"] = {
+		url = "https://imgur.com/VZcLGXd.png",
+		w = 32,
+		h = 32,
+	},
+	["clown2"] = {
+		url = "https://imgur.com/SLYzNHj.png",
+		w = 32,
+		h = 32,
+	},
+	["clown3"] = {
+		url = "https://imgur.com/QeH0LLP.png",
+		w = 32,
+		h = 32,
+	},
+	["clown4"] = {
+		url = "https://imgur.com/TWDyIuT.png",
+		w = 32,
+		h = 32,
+	},
 }
 
 -- Here you can decide whether an emoticon can only be used by a specific usergroup/SteamID
