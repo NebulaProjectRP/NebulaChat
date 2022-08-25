@@ -218,6 +218,7 @@ function LOUNGE_CHAT:CreateChatbox()
 
 		menu:Open()
 	end
+
 	_LOUNGE_CHAT = frame
 
 		local title = self.Label("", "LOUNGE_CHAT_16", self.Color("text"), frame)
@@ -411,8 +412,9 @@ function LOUNGE_CHAT:CreateChatbox()
 			frame.m_Entry = entry
 
 			local send = LOUNGE_CHAT.Button("send", bottom, function()
-				entry:OnEnter()
+				entry:OnEnter(entry:GetText())
 			end)
+
 			send:SetPaintedManually(true)
 			send:Dock(RIGHT)
 			send:DockMargin(4, 0, 0, 0)
@@ -424,8 +426,9 @@ function LOUNGE_CHAT:CreateChatbox()
 			frame.m_Send = send
 
 			local emoticons = LOUNGE_CHAT.Button("", bottom, function()
-				entry:OnEnter()
+				entry:OnEnter(entry:GetText())
 			end)
+
 			emoticons:SetPaintedManually(true)
 			emoticons:SetWide(bottom:GetTall())
 			emoticons:Dock(RIGHT)
